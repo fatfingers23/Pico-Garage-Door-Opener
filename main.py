@@ -87,10 +87,10 @@ async def serve_client(reader, writer):
     while await reader.readline() != b"\r\n":
         pass
     request = str(request_line)
-    toggle_door = request.find('/garage/toggle/' + password)
+    toggle_door = request.find('/garage/toggle/' + garage_password)
     stateis = ""
+    print(toggle_door)
     if toggle_door == 6:
-        print("Toggling door")
         toggle_garage()
         stateis = "Toggled"
     response = html % stateis
