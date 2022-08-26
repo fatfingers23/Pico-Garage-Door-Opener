@@ -89,7 +89,7 @@ async def serve_client(reader, writer):
     request = str(request_line)
     toggle_door = request.find('/garage/toggle/' + garage_password)
     stateis = ""
-    print(toggle_door)
+    
     if toggle_door == 6:
         toggle_garage()
         stateis = "Toggled"
