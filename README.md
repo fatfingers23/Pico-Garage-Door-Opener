@@ -4,7 +4,7 @@
 I live in an apartment with a detached garage where the only entrance is through the garage door, and if you forget the remote in the garage, you are locked out. This was my solution for WiFi enabled garage door opener with these conditions and no WiFi within reach of the garage. This sits in my apartment about 200ft from my garage, and still able to trigger it.
 
 My finished product.
-![soldered pcb](/documents/soldered_pcb_beadboard.png)
+![soldered pcb](/documents/soldered_pcb_beadboard.jpeg)
 
 
 
